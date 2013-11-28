@@ -1,0 +1,57 @@
+/*copyright (c) Tom Hands 2013 - toh1@le.ac.uk*/
+@font-face{
+font-family: raleway;
+src: url('raleway_thin-webfont.ttf'),
+     url('raleway_thin-webfont.eot');
+}
+
+body{background-color:#272727; background-image:url('bg.png'); background-repeat:repeat-x;padding:0px;margin:0px;}
+p {font-family:Quattrocento, serif; text-align:justify;font-size:14pt;}
+h1{font-family:raleway, sans-serif; width:100%; font-size:30pt;}
+a{color:#00b3e7;}
+a:hover{color:#0062a6;}
+
+div.all{position:relative;}
+div.searchcontainer{float:left; height:39px; background-image:url('search-back.png'); margin-left:25px; padding-top:11px; border-left:1px solid #373737; border-right: 1px solid #373737; padding-left:20px; padding-right:20px;}
+div.searchcontainer:hover{background-image:url('search-back-hover.png')}
+div.searchboxcontainer{float:left; padding-right:40px}
+div.toy{z-index:0;position:absolute;}
+div.searchresultsclass{z-index:200; overflow-y: hidden; overflow-x: hidden; position:absolute; background-color:white; top:40px; left:180px; width:450px; font-family:Quattrocento, serif; font-size: 14pt;background-color:#272727; color:#e6e6e6; border:1px solid #373737; }
+#searchresultslist{overflow-y: auto; overflow-x: hidden; height:100%}
+#searchresultslist a {display:block; padding:10px; width: 430px; border-bottom: 1px solid #373737; }
+#searchresultslist a:hover {display:block; padding:10px; background-color:#373737; cursor: pointer }
+#searchopts{width:100%; border-bottom:1px solid #373737; padding:10px}
+li :hover{ cursor:pointer}
+div.holder {z-index:100; position:relative; color:#eeeeee; width: 800px;  margin: 0px auto 0px auto}
+#slider{font-size: 8pt; width:400px; height:5px; margin-left:10px; margin-bottom:10px;}
+.nodisplay{display:none;}
+div.dialog{ position:absolute;width:100%; height:0px; background-color:#272727; border: 1px solid #373737; border-top:0px; padding:10px; margin-top:00px; overflow:hidden;}
+div.empty{overflow:hidden; width:0px; height:0px}
+button{background-color:#373737;font-family:raleway, sans-serif; color:#eeeeee; border:none; font-size:16pt}
+button:hover{background-color:#171717;}
+span.back{font-size:12pt; cursor:pointer;}
+#planinfo{ border-top:1px solid #373737}
+#desc {font-size:14pt; padding:10px; padding-left:25px;}
+
+div.menu{ width:100%; min-width:860px; height: 50px; background-color:#272727; border-bottom: 1px solid #373737; background-image:url('menu-back.png');}
+div.menu a{display:block; height:50px; float:right; font-family:raleway, sans-serif; color:#e6e6e6; font-size:20px; line-height:50px; border-left:1px solid #373737; padding-left:20px; padding-right:20px; text-align:center; text-decoration:none}
+div.menu a:hover{color:#00b3e7; background-image:url('menu-back-hover.png')}
+#logo{margin-left:40px; margin-top:0px; line-height:50px}
+span.blue{color:#00b3e7}
+div.logocontainer{float:left; font-family:raleway, sans-serif; color:white; font-size:30pt}
+.searchbox{display:block; background-image:url("searchicon.png"); background-repeat:no-repeat; width:220px;  font-family:Quattrocento, serif; font-size:14pt;height:25px; background-color:#e6e6e6; border:1px solid #373737;padding-left:40px;padding-right:10px}
+
+div.information{z-index:50; position: absolute; width:350px; color:#eeeeee; margin:40px; overflow:auto}
+div.information h1{font-family:raleway, sans-serif; font-size:16pt; margin:0px}
+div.information h2{font-family:Quattrocento, serif; font-size:30pt;margin:0px}
+div.information p{font-family:Quattrocento, serif; font-size:18pt;margin:0px}
+div.information ul{font-family:Quattrocento, serif; font-size:16pt;margin:0px}
+
+div.tweet{float:right; margin-right:10px}
+div.upsys{height:31px; width:45px; background-image:url('res/up.png'); background-repeat:no-repeat; float:right; margin-right:50px}
+div.upsys:hover{background-image:url('res/uphover.png')}
+div.syslistarrow{height:17px; width:28px; background-image:url('res/syslist.png'); background-repeat:no-repeat; float:left; margin-top:7px}
+div.syslistarrow:hover{background-image:url('res/syslisthover.png')}
+div.downsys{height:31px; width:45px; background-image:url('res/down.png'); background-repeat:no-repeat; float:right; margin-right:30px}
+div.downsys:hover{background-image:url('res/downhover.png')}
+div.controlholder{float:right; height:31px; margin-top:25px; z-index:50}
